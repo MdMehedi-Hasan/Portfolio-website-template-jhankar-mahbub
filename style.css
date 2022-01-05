@@ -1,5 +1,9 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
 }
 .top-left-shape{
 width:60px;
@@ -7,4 +11,54 @@ height:60px;
 border-radius: 10px;
 border-radius: 0px 0px 400px 0px;
 background-color: rgba(241, 79, 50, 0.911) ;
+}
+.header-left-text{
+    width:600px;
+    margin-left: 90px;
+}
+.header-left-text h1{
+font-size:50px;
+margin-top: -19px;
+}
+.header-left-text span{
+color:rgb(255, 154, 59);
+}
+.header-left-text button{
+    padding: 15px 30px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(241, 79, 50, 0.911);
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.header-right-image{
+    width:550px;
+    margin-left: 10px;
+
+}
+.big-circul{
+    width: 350px;
+    height:350px;
+    border-radius: 200px 200px 200px 200px;
+    background-image:linear-gradient(#ff7600, #ea8609);
+    float: right;
+    margin-right: 40px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+.big-circul img{
+width: 100%;
+position:relative;
+bottom:100px;
+left:30px;
+}
+.small-circul{
+    width: 70px;
+    height:70px;
+    border-radius: 37px 37px 37px 37px;
+    background-color: rgb(216, 64, 9);
+    position: relative;
+    top:280px;
+    left:438px;
 }
