@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+.top-left-shape{
+width:60px;
+height:60px;
+border-radius: 10px;
+border-radius: 0px 0px 400px 0px;
+background-color: rgba(241, 79, 50, 0.911) ;
+}
